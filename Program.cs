@@ -74,7 +74,7 @@ namespace srec
 
         void RecordScreen()
         {
-            var frameInterval = TimeSpan.FromSeconds(1 / (double) this.FramesPerSecond);
+            var frameInterval = TimeSpan.FromSeconds(1.0 / (double) this.FramesPerSecond);
             var buffer = new byte[this.ScreenWidth * this.ScreenHeight * 4];
             Task videoWriteTask = null;
             var timeTillNextFrame = TimeSpan.Zero;

@@ -9,3 +9,11 @@ bin/*
 out/*
 build/*
 target/*
+
+video.mp4
+video.avi
+
+
+# Added by cargo
+
+/target
