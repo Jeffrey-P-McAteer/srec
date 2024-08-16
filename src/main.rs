@@ -98,7 +98,8 @@ fn main() {
         // Draw Borders Settings
         DrawBorderSettings::Default,
         // The desired color format for the captured frame.
-        ColorFormat::Rgba8,
+        //ColorFormat::Rgba8,
+        ColorFormat::Bgra8,
         // Additional flags for the capture settings that will be passed to user defined `new` function.
         "Yea This Works".to_string(),
     );
