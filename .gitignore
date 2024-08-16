@@ -1,0 +1,11 @@
+*.vs
+obj
+bin
+out
+build
+target
+obj/*
+bin/*
+out/*
+build/*
+target/*
